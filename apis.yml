@@ -1,19 +1,45 @@
 aid: gigmile
 name: Gigmile
-description: Gigmile is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Gigmile is an African mobility platform and gig-economy fintech that gives riders, drivers,
+  and fleet operators a pathway to financial independence through affordable vehicle financing and
+  operational support. It offers lease-to-own and flexible financing for motorcycles, tricycles, cars,
+  and electric vehicles (via its Gamma Mobility asset-financing brand), alongside earned-wage access,
+  vehicle insurance, health cover, maintenance, and working-capital/micro-credit for independent gig
+  workers. Founded by Kay and Sam out of Africa's e-commerce sector, Gigmile operates across Nigeria
+  and Ghana (Lagos, Accra) and helps mobility entrepreneurs onboard and scale managed fleets of riders.
 url: https://raw.githubusercontent.com/api-evangelist/gigmile/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.gigmile.com/favicon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Mobility
+- Fintech
+- Vehicle Financing
+- Gig Economy
+- Ride-hailing
+- Lease-to-own
+- Earned Wage Access
+- Insurance
+- Africa
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gigmile-domain-security.yml
 - type: Website
-  url: https://gigmile.com/
+  url: https://www.gigmile.com/
+- type: Careers
+  url: https://gigmile.zohorecruit.com/jobs/Careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/gigmile/
+- type: Twitter
+  url: https://x.com/gigmile
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
