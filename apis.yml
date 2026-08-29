@@ -8,6 +8,17 @@ description: Gigmile is an African mobility platform and gig-economy fintech tha
   workers. Founded by Kay and Sam out of Africa's e-commerce sector, Gigmile operates across Nigeria
   and Ghana (Lagos, Accra) and helps mobility entrepreneurs onboard and scale managed fleets of riders.
 url: https://raw.githubusercontent.com/api-evangelist/gigmile/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
